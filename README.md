@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Bitter&weight=700&size=30&pause=1000&color=75F770&background=4EB04500&center=true&random=false&width=500&lines=LAMIN+DZ)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Bitter&weight=900&size=30&pause=1000&color=75F770&background=4EB04500&center=true&random=false&width=500&lines=LAMIN+DZ)](https://git.io/typing-svg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Bitter&weight=700&size=30&pause=1000&color=000AF7&background=4EB04500&center=true&vCenter=true&random=false&width=435&lines=github.com%2Flamin-sudo)](https://git.io/typing-svg)
 
@@ -38,7 +38,7 @@
  
  <br>
  ```PY
- 📍LAMIN 
+ 📍LAMIN DZ
  ```
  
 ★★★★★★★★★★★★★★★★★★★★★★★
