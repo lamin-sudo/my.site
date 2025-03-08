@@ -53,7 +53,5 @@
  
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=27&pause=1000&color=00790B&width=435&height=39&lines=📍LAMIN+DZ)](https://git.io/typing-svg)
 
- ```
- 
 ★★★★★★★★★★★★★★★★★★★★★★★
        ★★★★★       ★★★★★
