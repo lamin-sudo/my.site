@@ -12,7 +12,7 @@
 ★★★★★★★★★★★★★★★★★★★★★★★
        ★★★★★       ★★★★★
 
-    ⚙️ Mastered languages 🕶️
+> ### ⚙️ Mastered languages 🕶️:
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F7007A&duration=400&lines=js,;python,;php,;html-css,;java,;perl,;elixir,;eris,;go,;react.js,;z-sharp;batched,;vue.js,;sqlite3,;sql,;ruby;.net;shell)](https://git.io/typing-svg)
 
 ★★★★★★★★★★★★★★★★★★★★★★★
@@ -43,6 +43,10 @@
  > ### 🎈 Socials 
  
  | 🐻 [TLG](https://t.me/GSMSOFTDZ) | 🐦 [Twitter](https://x.com/lamin158403)  | ❤️️ [facebook](https://www.facebook.com/share/15VUK9TSNu/)
+
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&color=4C1B79&width=435&height=40&lines=🏆Thank+you+for+visiting!)](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&color=4C1B79&width=435&height=40&lines=%22Keep+learning%2C+keep+developing!🚀%22)](https://git.io/typing-svg)
  
  <br>
  ```PY
