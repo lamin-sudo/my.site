@@ -34,7 +34,7 @@
        ★★★★★       ★★★★★
  > ### 🎈 Socials 
  
- | 🐻 [TLG](https://t.me/GSMSOFTDZ) | 🐦 [Twitter](https://x.com/lamin158403)
+ | 🐻 [TLG](https://t.me/GSMSOFTDZ) | 🐦 [Twitter](https://x.com/lamin158403)  | ❤️️ [facebook](https://www.facebook.com/share/15VUK9TSNu/)
  
  <br>
  ```PY
