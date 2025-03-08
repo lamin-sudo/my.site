@@ -6,7 +6,9 @@
        ★★★★★       ★★★★★
        
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Gentium+Plus&weight=800&size=33&letterSpacing=letter-spacing%3A+1px;&duration=4989&pause=1000&color=14FFBE8D&background=FFFFFF00&vCenter=true&width=600&lines=🚀Who+Am+I?)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Gentium+Plus&weight=900&size=28&letterSpacing=letter-spacing%3A+1px;&duration=4989&pause=1000&color=3234FF8D&background=FFFFFF00&vCenter=true&width=1200&height=200&lines=Full+Stack+Developer+and+System+Administration+(Sys+Admin)+Specialist;Passionate+about+web+development%2C+cloud+computing%2C+and+cybersecurity;Love+learning+new+technologies+and+sharing+knowledge+with+the+community)](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Gentium+Plus&weight=900&size=21&letterSpacing=letter-spacing%3A+1px;&duration=4989&pause=1000&color=4416A4&background=71FF6400&vCenter=true&width=900&height=195&lines=Full+Stack+Developer+and+System+Administration+(Sys+Admin)+Specialist;Passionate+about+web+development%2C+cloud+computing%2C+and+cybersecurity;Love+learning+new+technologies+and+sharing+knowledge+with+the+community)](https://git.io/typing-svg)
+
 ★★★★★★★★★★★★★★★★★★★★★★★
        ★★★★★       ★★★★★
 
