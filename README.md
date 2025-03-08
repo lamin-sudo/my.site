@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Gentium+Plus&weight=900&size=45&duration=4989&pause=1000&color=75F7708D&background=4EB04500&vCenter=true&width=700&lines=👋Hello%2C+I'm+LAMIN+DZ)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Gentium+Plus&weight=900&size=45&duration=4989&pause=1000&color=0C94F78D&background=71FF6400&vCenter=true&width=700&height=100&lines=github.com%2Flamin-sudo)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Gentium+Plus&weight=900&size=45&duration=4989&pause=1000&color=01146C&background=71FF6400&vCenter=true&width=700&height=100&lines=github.com%2Flamin-sudo)](https://git.io/typing-svg)
 
 ★★★★★★★★★★★★★★★★★★★★★★★
        ★★★★★       ★★★★★
