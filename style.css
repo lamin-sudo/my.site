@@ -1,3 +1,102 @@
+/* تغيير الخلفية العامة */
 body {
-  background-color: #2f2f2f;
+  background-color: #344055; /* خلفية داكنة بلون رمادي يميل للأسود */
+  color: #eaeaea; /* نص باللون الفاتح للظهور بشكل جيد على الخلفية الداكنة */
+  font-family: "Monaco", "Bitstream Vera Sans Mono", "Lucida Console", "Terminal", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* تخصيص تنسيق العناوين */
+h1, h2, h3, h4, h5, h6 {
+  color: #90a959; /* لون العناوين بلون أخضر خفيف */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1);
+  letter-spacing: -1px;
+}
+
+/* تخصيص الروابط */
+a {
+  color: #75b5aa; /* روابط بلون أخضر مائل للأزرق */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff; /* عند مرور الماوس، تتغير الروابط إلى اللون الأبيض */
+  text-decoration: underline;
+}
+
+/* تخصيص الأزرار */
+.btn {
+  background-color: #75b5aa; /* أزرار بلون أخضر مائل للأزرق */
+  color: #ffffff; /* نص الأزرار باللون الأبيض */
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #6a9fb5; /* تغيير لون الأزرار عند التمرير */
+}
+
+/* تخصيص خلفية الأقسام */
+section {
+  background-color: #151515; /* خلفية داكنة للأقسام */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* تخصيص النصوص في الـblockquote */
+blockquote {
+  color: #aaa; /* نص الـblockquote باللون الفاتح */
+  border-left: 5px solid #75b5aa; /* إضافة حد جانبي بلون أخضر */
+  padding-left: 15px;
+  font-style: italic;
+}
+
+/* تخصيص النصوص داخل الأكواد */
+code, pre {
+  background-color: #333; /* خلفية داكنة للكود */
+  color: #b5e853; /* نص بلون أخضر فاتح */
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+/* تخصيص الجدول */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #444; /* خلفية داكنة للرؤوس */
+  color: #eaeaea; /* النص باللون الفاتح */
+  border-bottom: 2px solid #75b5aa;
+}
+
+td {
+  background-color: #222; /* خلفية داكنة للخلايا */
+  color: #eaeaea; /* النص باللون الفاتح */
+  border-bottom: 1px solid #444;
+}
+
+/* تخصيص الخطوط */
+pre, code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+
+/* تخصيص الخلفية في الصفحة */
+#main_content {
+  background-color: #222222; /* خلفية داكنة للمحتوى الرئيسي */
+  color: #d0d0d0; /* نص باللون الفاتح */
+  padding: 20px;
+  border-radius: 8px;
 }
