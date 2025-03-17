@@ -3,35 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>متجر الهواتف</title>
-    <link rel="stylesheet" href="style.css">
+    <title>متجري</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- رأس الصفحة -->
     <header>
-        <h1>متجر الهواتف</h1>
-        <nav>
-            <a href="/store/">الصفحة الرئيسية</a>
-        </nav>
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        <img src="logo.png" class="logo" alt="Logo">
+        <button class="search-btn">🔍</button>
     </header>
 
-    <section class="products">
-        <div class="product">
-            <img src="https://via.placeholder.com/200" alt="هاتف 1">
-            <h2>هاتف سامسونج S21</h2>
-            <p>السعر: 120,000 دج</p>
-            <a href="https://wa.me/213XXXXXXXXX?text=أريد%20شراء%20هاتف%20سامسونج%20S21" class="buy-btn">اطلب الآن</a>
+    <!-- القائمة الجانبية -->
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">×</button>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo">
+            <span>1Shop DZ</span>
         </div>
+        <ul>
+            <li><a href="#">🏠 الرئيسية</a></li>
+            <li><a href="#">🛒 المنتجات</a></li>
+            <li><a href="#">📦 الشحن</a></li>
+            <li><a href="#">ℹ️ تعرف علينا</a></li>
+            <li><a href="#">📞 الاتصال</a></li>
+        </ul>
+    </div>
 
-        <div class="product">
-            <img src="https://via.placeholder.com/200" alt="هاتف 2">
-            <h2>هاتف iPhone 13</h2>
-            <p>السعر: 180,000 دج</p>
-            <a href="https://wa.me/213XXXXXXXXX?text=أريد%20شراء%20هاتف%20iPhone%2013" class="buy-btn">اطلب الآن</a>
+    <!-- سلايدر الإعلانات -->
+    <section class="slider">
+        <img src="banner1.jpg" alt="تخفيضات أجهزة المطبخ">
+    </section>
+
+    <!-- أقسام المتجر -->
+    <section class="categories">
+        <div class="category">🔥 عروض وتخفيضات</div>
+        <div class="category">🎁 Pack زوج بسومة وحدة</div>
+        <div class="category">🚚 توصيل مجاني</div>
+    </section>
+
+    <!-- عروض اليوم -->
+    <section class="deals">
+        <h2>⚡ عروض اليوم</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="product1.jpg" alt="حامل هاتف">
+                <p>حامل هاتف للسيارة</p>
+                <span class="discount">-20%</span>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="مروحة تبريد">
+                <p>مروحة تبريد للهاتف</p>
+                <span class="discount">-31%</span>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p>© 2025 متجر الهواتف - جميع الحقوق محفوظة</p>
-    </footer>
+    <!-- شريط التنقل السفلي -->
+    <nav class="bottom-nav">
+        <a href="#">🏠 محل</a>
+        <a href="#">📂 فئات</a>
+        <a href="#">🛒 سلة</a>
+        <a href="#">👤 حسابي</a>
+    </nav>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
