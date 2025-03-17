@@ -32,7 +32,7 @@
             signInWithEmailAndPassword(auth, email, password)
                 .then((userCredential) => {
                     alert("تم تسجيل الدخول بنجاح!");
-                    window.location.href = "index.html"; // توجيه المستخدم إلى صفحة الحساب
+                    window.location.href = "dashboard.html"; // توجيه المستخدم إلى صفحة الحساب
                 })
                 .catch((error) => {
                     alert("خطأ في تسجيل الدخول: " + error.message);
@@ -53,9 +53,41 @@
                     alert("خطأ في إنشاء الحساب: " + error.message);
                 });
         });
+
+        // فتح/إغلاق القائمة الجانبية
+        document.getElementById("menu-toggle").addEventListener("click", function () {
+            const sidebar = document.getElementById("sidebar");
+            sidebar.style.left = sidebar.style.left === "0px" ? "-250px" : "0px";
+        });
+
+        // تسجيل الخروج
+        document.getElementById("logout-btn").addEventListener("click", function () {
+            signOut(auth)
+                .then(() => {
+                    alert("تم تسجيل الخروج بنجاح!");
+                    window.location.href = "index.html"; // توجيه المستخدم إلى الصفحة الرئيسية
+                })
+                .catch((error) => {
+                    alert("خطأ في تسجيل الخروج: " + error.message);
+                });
+        });
     </script>
 </head>
 <body>
+    <!-- زر القائمة -->
+    <button id="menu-toggle">☰ القائمة</button>
+
+    <!-- القائمة الجانبية -->
+    <div id="sidebar" class="sidebar">
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">حسابي</a></li>
+            <li><a href="#">المتجر</a></li>
+            <li><button id="logout-btn">تسجيل الخروج</button></li>
+        </ul>
+    </div>
+
+    <!-- محتوى الصفحة -->
     <div class="container">
         <h2>تسجيل الدخول</h2>
         <form id="loginForm">
