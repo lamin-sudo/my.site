@@ -5,73 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>حسابي</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module">
-        // استيراد Firebase
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
-
-        // إعداد Firebase
-        const firebaseConfig = {
-            apiKey: "AIzaSyBhOJQjj7kDhe2f7P3q8fJ0zoTXJmRH960",
-            authDomain: "mystore-9e92b.firebaseapp.com",
-            projectId: "mystore-9e92b",
-            storageBucket: "mystore-9e92b.firebasestorage.app",
-            messagingSenderId: "620837836452",
-            appId: "1:620837836452:web:bd1b2e179acbd5d1733831"
-        };
-        
-        const app = initializeApp(firebaseConfig);
-        const auth = getAuth();
-
-        // تسجيل الدخول
-        document.getElementById("loginForm").addEventListener("submit", function (e) {
-            e.preventDefault();
-            let email = document.getElementById("loginEmail").value;
-            let password = document.getElementById("loginPassword").value;
-            
-            signInWithEmailAndPassword(auth, email, password)
-                .then((userCredential) => {
-                    alert("تم تسجيل الدخول بنجاح!");
-                    window.location.href = "dashboard.html"; // توجيه المستخدم إلى صفحة الحساب
-                })
-                .catch((error) => {
-                    alert("خطأ في تسجيل الدخول: " + error.message);
-                });
-        });
-
-        // إنشاء حساب جديد
-        document.getElementById("registerForm").addEventListener("submit", function (e) {
-            e.preventDefault();
-            let email = document.getElementById("registerEmail").value;
-            let password = document.getElementById("registerPassword").value;
-            
-            createUserWithEmailAndPassword(auth, email, password)
-                .then((userCredential) => {
-                    alert("تم إنشاء الحساب بنجاح!");
-                })
-                .catch((error) => {
-                    alert("خطأ في إنشاء الحساب: " + error.message);
-                });
-        });
-
-        // فتح/إغلاق القائمة الجانبية
-        document.getElementById("menu-toggle").addEventListener("click", function () {
-            const sidebar = document.getElementById("sidebar");
-            sidebar.style.left = sidebar.style.left === "0px" ? "-250px" : "0px";
-        });
-
-        // تسجيل الخروج
-        document.getElementById("logout-btn").addEventListener("click", function () {
-            signOut(auth)
-                .then(() => {
-                    alert("تم تسجيل الخروج بنجاح!");
-                    window.location.href = "index.html"; // توجيه المستخدم إلى الصفحة الرئيسية
-                })
-                .catch((error) => {
-                    alert("خطأ في تسجيل الخروج: " + error.message);
-                });
-        });
-    </script>
+    <script src="script.js" type="module"></script>
 </head>
 <body>
     <!-- زر القائمة -->
@@ -101,6 +35,9 @@
             <input type="password" id="registerPassword" placeholder="كلمة المرور" required>
             <button type="submit">إنشاء الحساب</button>
         </form>
+    </div>
+</body>
+</html>
     </div>
 </body>
 </html>
