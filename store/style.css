@@ -25,6 +25,28 @@ h2 {
     color: #333;
 }
 
+/* التبويبات (تسجيل الدخول / تسجيل) */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.tabs button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #f1f1f1;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tabs button.active {
+    background: white;
+    font-weight: bold;
+    border-bottom: 3px solid #ffb400;
+}
+
 /* استايل حقول الإدخال */
 input {
     width: 100%;
@@ -99,13 +121,9 @@ header {
     position: fixed;
     top: 0;
     left: -250px;
-    transition: left 0.3s ease;
+    transition: 0.3s;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-}
-
-.sidebar.active {
-    left: 0;
+    padding-top: 20px;
 }
 
 .sidebar .close-btn {
@@ -214,7 +232,7 @@ header {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #6a1b9a;
+    background: #6a1b9a; /* بنفسجي */
     box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
 }
 
@@ -248,17 +266,4 @@ header {
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-/* زر القائمة */
-#menu-toggle {
-    background: none;
-    border: none;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1001;
 }
