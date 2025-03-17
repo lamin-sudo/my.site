@@ -4,48 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>حسابي</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module">
+        // استيراد Firebase
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+        // إعداد Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyBhOJQjj7kDhe2f7P3q8fJ0zoTXJmRH960",
+            authDomain: "mystore-9e92b.firebaseapp.com",
+            projectId: "mystore-9e92b",
+            storageBucket: "mystore-9e92b.firebasestorage.app",
+            messagingSenderId: "620837836452",
+            appId: "1:620837836452:web:bd1b2e179acbd5d1733831"
+        };
+        
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth();
+
+        // تسجيل الدخول
+        document.getElementById("loginForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            let email = document.getElementById("loginEmail").value;
+            let password = document.getElementById("loginPassword").value;
+            
+            signInWithEmailAndPassword(auth, email, password)
+                .then((userCredential) => {
+                    alert("تم تسجيل الدخول بنجاح!");
+                })
+                .catch((error) => {
+                    alert("خطأ في تسجيل الدخول: " + error.message);
+                });
+        });
+
+        // إنشاء حساب جديد
+        document.getElementById("registerForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            let email = document.getElementById("registerEmail").value;
+            let password = document.getElementById("registerPassword").value;
+            
+            createUserWithEmailAndPassword(auth, email, password)
+                .then((userCredential) => {
+                    alert("تم إنشاء الحساب بنجاح!");
+                })
+                .catch((error) => {
+                    alert("خطأ في إنشاء الحساب: " + error.message);
+                });
+        });
+    </script>
 </head>
 <body>
     <div class="container">
-        <h2>حسابي</h2>
-        <div class="tabs">
-            <button id="login-tab" class="active">تسجيل الدخول</button>
-            <button id="register-tab">إنشاء حساب</button>
-        </div>
-
-        <!-- فورم تسجيل الدخول -->
-        <div id="login-form">
-            <input type="email" id="login-email" placeholder="البريد الإلكتروني">
-            <input type="password" id="login-password" placeholder="كلمة المرور">
-            <button id="login-btn">تسجيل الدخول</button>
-            <p><a href="#">نسيت كلمة المرور؟</a></p>
-        </div>
-
-        <!-- فورم إنشاء الحساب -->
-        <div id="register-form" style="display: none;">
-            <input type="email" id="register-email" placeholder="البريد الإلكتروني">
-            <input type="password" id="register-password" placeholder="كلمة المرور">
-            <input type="password" id="confirm-password" placeholder="تأكيد كلمة المرور">
-            <button id="register-btn">إنشاء حساب</button>
-        </div>
+        <h2>تسجيل الدخول</h2>
+        <form id="loginForm">
+            <input type="email" id="loginEmail" placeholder="البريد الإلكتروني" required>
+            <input type="password" id="loginPassword" placeholder="كلمة المرور" required>
+            <button type="submit">تسجيل الدخول</button>
+        </form>
+        <h2>إنشاء حساب جديد</h2>
+        <form id="registerForm">
+            <input type="email" id="registerEmail" placeholder="البريد الإلكتروني" required>
+            <input type="password" id="registerPassword" placeholder="كلمة المرور" required>
+            <button type="submit">إنشاء الحساب</button>
+        </form>
     </div>
-
-    <script>
-        // تبديل بين تسجيل الدخول وإنشاء حساب
-        document.getElementById("login-tab").addEventListener("click", function () {
-            document.getElementById("login-form").style.display = "block";
-            document.getElementById("register-form").style.display = "none";
-            this.classList.add("active");
-            document.getElementById("register-tab").classList.remove("active");
-        });
-
-        document.getElementById("register-tab").addEventListener("click", function () {
-            document.getElementById("login-form").style.display = "none";
-            document.getElementById("register-form").style.display = "block";
-            this.classList.add("active");
-            document.getElementById("login-tab").classList.remove("active");
-        });
-    </script>
 </body>
 </html>
