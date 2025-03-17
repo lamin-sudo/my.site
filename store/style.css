@@ -121,9 +121,13 @@ header {
     position: fixed;
     top: 0;
     left: -250px;
-    transition: 0.3s;
+    transition: left 0.3s ease;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
-    padding-top: 20px;
+    z-index: 1000;
+}
+
+.sidebar.active {
+    left: 0;
 }
 
 .sidebar .close-btn {
@@ -232,7 +236,7 @@ header {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #6a1b9a; /* بنفسجي */
+    background: #6a1b9a;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
 }
 
