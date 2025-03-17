@@ -87,9 +87,9 @@ document.addEventListener("DOMContentLoaded", function() {
 // دالة فتح/إغلاق القائمة الجانبية
 function toggleMenu() {
   var sidebar = document.getElementById("sidebar");
-  if (sidebar.style.left === "0px") {
-    sidebar.style.left = "-250px";
+  if (sidebar.style.left === "0px" || sidebar.style.left === "") {
+    sidebar.style.left = "-250px"; // إخفاء القائمة
   } else {
-    sidebar.style.left = "0px";
+    sidebar.style.left = "0px"; // إظهار القائمة
   }
 }
