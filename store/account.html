@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حسابي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>حسابي</h2>
+        <div class="tabs">
+            <button id="login-tab" class="active">تسجيل الدخول</button>
+            <button id="register-tab">إنشاء حساب</button>
+        </div>
+
+        <!-- فورم تسجيل الدخول -->
+        <div id="login-form">
+            <input type="email" id="login-email" placeholder="البريد الإلكتروني">
+            <input type="password" id="login-password" placeholder="كلمة المرور">
+            <button id="login-btn">تسجيل الدخول</button>
+            <p><a href="#">نسيت كلمة المرور؟</a></p>
+        </div>
+
+        <!-- فورم إنشاء الحساب -->
+        <div id="register-form" style="display: none;">
+            <input type="email" id="register-email" placeholder="البريد الإلكتروني">
+            <input type="password" id="register-password" placeholder="كلمة المرور">
+            <input type="password" id="confirm-password" placeholder="تأكيد كلمة المرور">
+            <button id="register-btn">إنشاء حساب</button>
+        </div>
+    </div>
+
+    <script>
+        // تبديل بين تسجيل الدخول وإنشاء حساب
+        document.getElementById("login-tab").addEventListener("click", function () {
+            document.getElementById("login-form").style.display = "block";
+            document.getElementById("register-form").style.display = "none";
+            this.classList.add("active");
+            document.getElementById("register-tab").classList.remove("active");
+        });
+
+        document.getElementById("register-tab").addEventListener("click", function () {
+            document.getElementById("login-form").style.display = "none";
+            document.getElementById("register-form").style.display = "block";
+            this.classList.add("active");
+            document.getElementById("login-tab").classList.remove("active");
+        });
+    </script>
+</body>
+</html>
