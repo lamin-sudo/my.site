@@ -80,8 +80,16 @@ document.addEventListener("DOMContentLoaded", function() {
   const sidebar = document.getElementById("sidebar");
 
   if (menuToggle && sidebar) {
-    menuToggle.addEventListener("click", function() {
-      sidebar.classList.toggle("active");
-    });
+    menuToggle.addEventListener("click", toggleMenu);
   }
 });
+
+// دالة فتح/إغلاق القائمة الجانبية
+function toggleMenu() {
+  var sidebar = document.getElementById("sidebar");
+  if (sidebar.style.left === "0px") {
+    sidebar.style.left = "-250px";
+  } else {
+    sidebar.style.left = "0px";
+  }
+}
