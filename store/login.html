@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>تسجيل الدخول</h2>
+        <form action="dashboard.html" method="POST">
+            <label for="username">اسم المستخدم أو البريد الإلكتروني</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">كلمة المرور</label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="remember-me">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">تذكرني</label>
+            </div>
+
+            <button type="submit">تسجيل الدخول</button>
+        </form>
+        <p><a href="#">نسيت كلمة المرور؟</a></p>
+        <p>ليس لديك حساب؟ <a href="register.html">إنشاء حساب جديد</a></p>
+        <a href="index.html">🔙 العودة إلى الصفحة الرئيسية</a>
+    </div>
+</body>
+</html>
