@@ -1,6 +1,6 @@
 // ====== تهيئة Firebase ======
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
-import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBhOJQjj7kDhe2f7P3q8fJ0zoTXJmRH960",
@@ -31,33 +31,30 @@ onAuthStateChanged(auth, (user) => {
 });
 
 // ====== تسجيل الدخول ======
-document.getElementById("login-btn")?.addEventListener("click", function(event) {
-  event.preventDefault();
-
-  const email = document.getElementById("login-email").value;
-  const password = document.getElementById("login-password").value;
-
+document.getElementById("loginForm")?.addEventListener("submit", function (e) {
+  e.preventDefault();
+  let email = document.getElementById("loginEmail").value;
+  let password = document.getElementById("loginPassword").value;
+  
   signInWithEmailAndPassword(auth, email, password)
-    .then(() => {
+    .then((userCredential) => {
       alert("تم تسجيل الدخول بنجاح!");
-      window.location.href = "account.html";
+      window.location.href = "dashboard.html"; // توجيه المستخدم إلى صفحة الحساب
     })
     .catch((error) => {
       alert("خطأ في تسجيل الدخول: " + error.message);
     });
 });
 
-// ====== تسجيل حساب جديد ======
-document.getElementById("register-btn")?.addEventListener("click", function(event) {
-  event.preventDefault();
-
-  const email = document.getElementById("register-email").value;
-  const password = document.getElementById("register-password").value;
-
+// ====== إنشاء حساب جديد ======
+document.getElementById("registerForm")?.addEventListener("submit", function (e) {
+  e.preventDefault();
+  let email = document.getElementById("registerEmail").value;
+  let password = document.getElementById("registerPassword").value;
+  
   createUserWithEmailAndPassword(auth, email, password)
-    .then(() => {
+    .then((userCredential) => {
       alert("تم إنشاء الحساب بنجاح!");
-      window.location.href = "account.html";
     })
     .catch((error) => {
       alert("خطأ في إنشاء الحساب: " + error.message);
@@ -65,31 +62,23 @@ document.getElementById("register-btn")?.addEventListener("click", function(even
 });
 
 // ====== تسجيل الخروج ======
-document.getElementById("logout-btn")?.addEventListener("click", function() {
-  signOut(auth).then(() => {
-    alert("تم تسجيل الخروج بنجاح!");
-    window.location.href = "login.html";
-  }).catch((error) => {
-    alert("خطأ في تسجيل الخروج: " + error.message);
-  });
+document.getElementById("logout-btn")?.addEventListener("click", function () {
+  signOut(auth)
+    .then(() => {
+      alert("تم تسجيل الخروج بنجاح!");
+      window.location.href = "index.html"; // توجيه المستخدم إلى الصفحة الرئيسية
+    })
+    .catch((error) => {
+      alert("خطأ في تسجيل الخروج: " + error.message);
+    });
 });
 
-// ====== القائمة الجانبية ======
-document.addEventListener("DOMContentLoaded", function() {
-  const menuToggle = document.getElementById("menu-toggle");
+// ====== فتح/إغلاق القائمة الجانبية ======
+document.getElementById("menu-toggle")?.addEventListener("click", function () {
   const sidebar = document.getElementById("sidebar");
-
-  if (menuToggle && sidebar) {
-    menuToggle.addEventListener("click", toggleMenu);
-  }
-});
-
-// دالة فتح/إغلاق القائمة الجانبية
-function toggleMenu() {
-  var sidebar = document.getElementById("sidebar");
   if (sidebar.style.left === "0px" || sidebar.style.left === "") {
     sidebar.style.left = "-250px"; // إخفاء القائمة
   } else {
     sidebar.style.left = "0px"; // إظهار القائمة
   }
-}
+});
