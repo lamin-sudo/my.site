@@ -1,11 +1,92 @@
-/* الكود الأول */
+/* استايل عام */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     direction: rtl;
-    background-color: #f4f4f4;
+    text-align: right;
+    background-color: #f8f8f8;
     color: #333;
+}
+
+/* الحاوية الرئيسية */
+.container {
+    max-width: 400px;
+    background: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* العنوان */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* التبويبات (تسجيل الدخول / تسجيل) */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.tabs button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #f1f1f1;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tabs button.active {
+    background: white;
+    font-weight: bold;
+    border-bottom: 3px solid #ffb400;
+}
+
+/* استايل حقول الإدخال */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* زر تسجيل الدخول / التسجيل */
+button, .btn {
+    width: 100%;
+    padding: 10px;
+    background: #ffb400;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    background: #e09c00;
+}
+
+/* رابط نسيان كلمة المرور */
+p {
+    text-align: center;
+}
+
+p a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
 }
 
 /* رأس الصفحة */
@@ -185,19 +266,4 @@ header {
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-/* أزرار التفاعل */
-button, .btn {
-    background: #ff8000;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-button:hover, .btn:hover {
-    background: #ff6600;
 }
