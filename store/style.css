@@ -1,9 +1,11 @@
+/* الكود الأول */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     direction: rtl;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 /* رأس الصفحة */
@@ -13,6 +15,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
 
 .menu-btn, .search-btn {
@@ -37,6 +42,7 @@ header {
     left: -250px;
     transition: 0.3s;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
 }
 
 .sidebar .close-btn {
@@ -71,10 +77,13 @@ header {
     color: #333;
     font-size: 18px;
     display: block;
+    transition: 0.3s;
 }
 
 .sidebar ul li a:hover {
     color: #ff8000;
+    background: #ff6600;
+    padding-right: 10px;
 }
 
 /* سلايدر الإعلانات */
@@ -133,7 +142,7 @@ header {
 }
 
 /* شريط التنقل السفلي */
-.bottom-nav {
+.bottom-nav, .navbar-bottom {
     display: flex;
     justify-content: space-around;
     background: white;
@@ -142,9 +151,53 @@ header {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background: #6a1b9a; /* بنفسجي */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
 }
 
-.bottom-nav a {
+.bottom-nav a, .navbar-bottom a {
     text-decoration: none;
-    color: #333;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.bottom-nav a:hover, .navbar-bottom a:hover {
+    color: #ffcc00;
+}
+
+.navbar-bottom a i {
+    display: block;
+    font-size: 24px;
+}
+
+/* محتوى الصفحة بجانب القائمة الجانبية */
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+/* تنسيق الصفحة الداخلية */
+.page-content {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* أزرار التفاعل */
+button, .btn {
+    background: #ff8000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    background: #ff6600;
 }
