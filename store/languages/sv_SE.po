@@ -1,0 +1,1082 @@
+# Translation of Themes - eMart Shop in Swedish
+# This file is distributed under the same license as the Themes - eMart Shop package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-20 08:04:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - eMart Shop\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Share your online store with confidence and ease using the Emart WordPress eCommerce theme. Bold presentation and smooth transitions keep the page alive. This high energy layout moves the eyes from one section to the next. Your store will represent your product in a high energy and enthusiastic way. Well organized stores are easy to shop. By using layouts and colors that are bold and match your brand you will find returning customers as well as new ones. Building with Elementor is fast and seamless. This allows you to make a store that represents the best of your store. Your own images and slider can be dropped into the layouts for the best effect. Product pages that share details and descriptions make it easy for customers to find what they are looking for. It integrates  the industry standard WooCommerce e-commerce plugin, a wonderful  solution for all your online commerce needs, which allows your users to  browse your product catalogs in easy but stylish grace, add items to  their shopping carts intuitively, and proceed to checkout and make  payments, all right off your website. Full Demo:  https://demo.athemeart.com/emart/demo-1/"
+msgstr ""
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "eMart Shop"
+msgstr "eMart Shop"
+
+#: woocommerce/single-product/meta.php:39
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Etikett:"
+msgstr[1] "Etiketter:"
+
+#: woocommerce/single-product/meta.php:35
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Kategori:"
+msgstr[1] "Kategorier:"
+
+#: woocommerce/single-product/meta.php:30
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/single-product/meta.php:30
+msgid "SKU:"
+msgstr "Artikelnummer:"
+
+#: woocommerce/result-count.php:64
+msgid "ALL:"
+msgstr "ALLA:"
+
+#: woocommerce/result-count.php:60
+msgid "View:"
+msgstr "Visa:"
+
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr "Fortsätt till kassan"
+
+#. Template Name of the theme
+msgid "Without hero section"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:46
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Redigera <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content-page.php:33
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar som att vi inte kan hitta det du letar efter. Prova att göra en sökning."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Inget matchade dina söktermer. Försök igen med några andra nyckelord."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Inget hittades"
+
+#: sidebar.php:30
+msgid "Meta"
+msgstr "Meta"
+
+#: sidebar.php:26
+msgid "Archives"
+msgstr "Arkiv"
+
+#: inc/woocommerce.php:496
+msgid "Place order"
+msgstr ""
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:234
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] "%d"
+msgstr[1] "%d"
+
+#: inc/woocommerce.php:230
+msgid "View your shopping cart"
+msgstr "Visa din varukorg"
+
+#: inc/theme-core.php:235
+msgid "Default Header Image"
+msgstr "Standardbild i sidhuvudet"
+
+#: inc/theme-core.php:161
+msgid "Logo Right"
+msgstr "Logga höger"
+
+#: inc/theme-core.php:150
+msgid "Footer"
+msgstr "Sidfot"
+
+#: inc/theme-core.php:140
+msgid "Home Page Slider"
+msgstr ""
+
+#: inc/theme-core.php:131 inc/theme-core.php:142 inc/theme-core.php:152
+#: inc/theme-core.php:163
+msgid "Add widgets here."
+msgstr "Lägg till widgetar här."
+
+#: inc/theme-core.php:129
+msgid "Sidebar"
+msgstr "Sidopanel"
+
+#: inc/theme-core.php:52
+msgid "Primary"
+msgstr "Primär"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3526
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installerar tillägg %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3524
+msgid "All installations have been completed."
+msgstr "Alla installationer har slutförts."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3523
+msgid "%1$s installed successfully."
+msgstr "%1$s installerades utan problem."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3521
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Installationsprocessen startar. Denna process kan ta en stund på vissa webbhotell, så ha tålamod."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installerar och aktiverar tillägg %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3516
+msgid "All installations and activations have been completed."
+msgstr "Alla installationer och aktiveringar har slutförts."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+#: inc/tgm/class-tgm-plugin-activation.php:3523
+msgid "Hide Details"
+msgstr "Dölj detaljer"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+#: inc/tgm/class-tgm-plugin-activation.php:3523
+msgid "Show Details"
+msgstr "Visa detaljer"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installerades och aktiverades utan problem."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3513
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Installations- och aktiveringsprocessen startar. Denna process kan ta en stund på vissa webbhotell, så ha tålamod."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+msgid "The installation of %1$s failed."
+msgstr "Installationen av %1$s misslyckades."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ett fel uppstod vid installation av %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3504
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Uppdaterar tillägg %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3164
+msgid "Plugin activation failed."
+msgstr "Aktivering av tillägg misslyckades."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2940
+msgid "No plugins are available to be activated at this time."
+msgstr "Inga tillägg är tillgängliga för att aktiveras just nu."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2914
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Inga tillägg valdes för att aktiveras. Ingen åtgärd vidtogs."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2808
+msgid "No plugins are available to be updated at this time."
+msgstr "Inga tillägg är tillgängliga för att uppdateras just nu."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2806
+msgid "No plugins are available to be installed at this time."
+msgstr "Inga tillägg är tillgängliga för att installeras just nu."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2765
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Inga tillägg valdes för att uppdateras. Ingen åtgärd vidtogs."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2763
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Inga tillägg valdes för att installeras. Ingen åtgärd vidtogs."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2732
+msgid "Activate"
+msgstr "Aktivera"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2729
+msgid "Update"
+msgstr "Uppdatera"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Install"
+msgstr "Installera"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2690
+msgid "Upgrade message from the plugin author:"
+msgstr "Uppgraderingsmeddelande från tilläggets författare:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2620
+msgid "Activate %2$s"
+msgstr "Aktivera %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+msgid "Update %2$s"
+msgstr "Uppdatera %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2609
+msgid "Install %2$s"
+msgstr "Installera %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2560
+msgid "Status"
+msgstr "Status"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2559
+msgid "Version"
+msgstr "Version"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2555
+msgid "Type"
+msgstr "Typ"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554
+msgid "Source"
+msgstr "Källa"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Plugin"
+msgstr "Tillägg"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2539
+msgid "No plugins to install, update or activate."
+msgstr "Inga tillägg att installera, uppdatera eller aktivera."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2516
+msgid "Available version:"
+msgstr "Tillgänglig version:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2504
+msgid "Minimum required version:"
+msgstr "Minsta version som krävs:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2496
+msgid "Installed version:"
+msgstr "Installerad version:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2488
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "okänd"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2406
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Att aktivera <span class=\"count\">(%s)</span>"
+msgstr[1] "Att aktivera <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2402
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Uppdatering tillgänglig <span class=\"count\">(%s)</span>"
+msgstr[1] "Uppdateringar tillgängliga <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2398
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Att installera <span class=\"count\">(%s)</span>"
+msgstr[1] "Att installera <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2394
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alla <span class=\"count\">(%s)</span>"
+msgstr[1] "Alla <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2348
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2339
+msgid "Update recommended"
+msgstr "Uppdatering rekommenderas"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2336
+msgid "Requires Update"
+msgstr "Kräver uppdatering"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Required Update not Available"
+msgstr "Obligatorisk uppdatering inte tillgänglig"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Active"
+msgstr "Aktiv"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2325
+msgid "Installed But Not Activated"
+msgstr "Installerat men inte aktiverat"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Not Installed"
+msgstr "Inte installerat"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2304
+msgid "Pre-Packaged"
+msgstr "Förpaketerat"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2301
+msgid "External Source"
+msgstr "Extern källa"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "WordPress Repository"
+msgstr "WordPress filförvar"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2282
+msgid "Recommended"
+msgstr "Rekommenderat"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2279
+msgid "Required"
+msgstr "Obligatoriskt"
+
+#. translators: %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:1988
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1127
+#: inc/tgm/class-tgm-plugin-activation.php:2954
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "och"
+
+#: inc/tgm/class-tgm-plugin-activation.php:943
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Fjärrpaketet av tillägget består av fler än en fil, men filerna är inte paketerade i en mapp."
+
+#: inc/tgm/class-tgm-plugin-activation.php:940
+#: inc/tgm/class-tgm-plugin-activation.php:943
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Kontakta tilläggets leverantör och be dem att paketera sitt tillägg enligt WordPress riktlinjer."
+
+#: inc/tgm/class-tgm-plugin-activation.php:940
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Fjärrpaketet för tillägget innehåller ingen mapp med önskad slug och det gick inte att byta namn."
+
+#: inc/tgm/class-tgm-plugin-activation.php:529
+msgid "Update Required"
+msgstr "Uppdatering krävs"
+
+#: inc/tgm/class-tgm-plugin-activation.php:528
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Detta tillägg måste uppdateras för att vara kompatibelt med ditt tema."
+
+#: inc/tgm/class-tgm-plugin-activation.php:403
+msgid "Please contact the administrator of this site for help."
+msgstr "Kontakta administratören för denna webbplats för hjälp."
+
+#: inc/tgm/class-tgm-plugin-activation.php:402
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Det finns ett eller flera obligatoriska eller rekommenderade tillägg att installera, uppdatera eller aktivera."
+
+#: inc/tgm/class-tgm-plugin-activation.php:401
+msgid "Dismiss this notice"
+msgstr "Avfärda denna notis"
+
+#. translators: 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:400
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alla tillägg installerades och aktiverades utan problem. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:398
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Tillägg inte aktiverat. En högre version av %s behövs för detta tema. Uppdatera tillägget."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:396
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Ingen åtgärd vidtagen. Tillägg %1$s var redan aktivt."
+
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#: inc/tgm/class-tgm-plugin-activation.php:2958
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Följande tillägg aktiverades utan problem:"
+msgstr[1] "Följande tillägg aktiverades utan problem:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:393
+#: inc/tgm/class-tgm-plugin-activation.php:3165
+msgid "Plugin activated successfully."
+msgstr "Tillägg aktiverat utan problem."
+
+#: inc/tgm/class-tgm-plugin-activation.php:392
+#: inc/tgm/class-tgm-plugin-activation.php:833
+#: inc/tgm/class-tgm-plugin-activation.php:2539
+#: inc/tgm/class-tgm-plugin-activation.php:3586
+msgid "Return to the Dashboard"
+msgstr "Tillbaka till adminpanelen"
+
+#: inc/tgm/class-tgm-plugin-activation.php:391
+msgid "Return to Required Plugins Installer"
+msgstr "Tillbaka till installeraren för obligatoriska tillägg "
+
+#: inc/tgm/class-tgm-plugin-activation.php:386
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Börja aktivera tillägg"
+msgstr[1] "Börja aktivera tillägg"
+
+#: inc/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Börja uppdatera tillägg"
+msgstr[1] "Börja uppdatera tillägg"
+
+#: inc/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Börja installera tillägg"
+msgstr[1] "Börja installera tillägg"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:370
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Följande rekommenderat tillägg är för närvarande inaktivt: %1$s."
+msgstr[1] "Följande rekommenderade tillägg är för närvarande inaktiva: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:363
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Följande obligatoriskt tillägg är för närvarande inaktivt: %1$s."
+msgstr[1] "Följande obligatoriska tillägg är för närvarande inaktiva: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:356
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Det finns en uppdatering tillgänglig för: %1$s."
+msgstr[1] "Det finns uppdateringar tillgängliga för följande tillägg: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:349
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Följande tillägg måste uppdateras till sin senaste version för att säkerställa maximal kompatibilitet med detta tema: %1$s."
+msgstr[1] "Följande tillägg måste uppdateras till sina senaste versioner för att säkerställa maximal kompatibilitet med detta tema: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Detta tema rekommenderar följande tillägg: %1$s."
+msgstr[1] "Detta tema rekommenderar följande tillägg: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:335
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Detta tema kräver följande tillägg: %1$s."
+msgstr[1] "Detta tema kräver följande tillägg: %1$s."
+
+#: inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Något gick fel med tilläggets API."
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Uppdaterar tillägg: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Installerar tillägg: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Installera tillägg"
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Installera obligatoriska tillägg"
+
+#: inc/template-functions.php:325
+msgid "Add a menu"
+msgstr "Lägg till en meny"
+
+#. translators: 1: date, 2: time
+#: inc/template-functions.php:234 inc/template-functions.php:280
+msgid "%1$s at %2$s"
+msgstr "%1$s kl. %2$s"
+
+#: inc/customizer/theme-option.php:250
+msgid "Youtube"
+msgstr "YouTube"
+
+#: inc/customizer/theme-option.php:232
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/theme-option.php:213
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/theme-option.php:197
+msgid "Social Profile"
+msgstr "Social profil"
+
+#: inc/customizer/theme-option.php:167
+msgid "Copyright Write Text"
+msgstr "Skriv upphovsrättstext"
+
+#: inc/customizer/theme-option.php:150
+msgid "Copyright & Dev. Credits"
+msgstr ""
+
+#: inc/customizer/theme-option.php:139
+msgid "Full Container"
+msgstr "Full behållare"
+
+#: inc/customizer/theme-option.php:138
+msgid "No Sidebar"
+msgstr "Ingen sidopanel"
+
+#: inc/customizer/theme-option.php:137
+msgid "Content - Primary Sidebar"
+msgstr "Innehåll – Primär sidopanel"
+
+#: inc/customizer/theme-option.php:136
+msgid "Primary Sidebar - Content"
+msgstr "Primär sidopanel – Innehåll "
+
+#: inc/customizer/theme-option.php:134
+msgid "Choose between different layout options to be used as default"
+msgstr "Välj mellan olika layoutalternativ som ska användas som standard"
+
+#: inc/customizer/theme-option.php:132
+msgid "Page Layout Options"
+msgstr "Alternativ för sidlayout"
+
+#: inc/customizer/theme-option.php:114
+msgid "Page Management"
+msgstr "Sidhantering"
+
+#: inc/customizer/theme-option.php:104
+msgid "Hide Single post Meta Info ?"
+msgstr ""
+
+#: inc/customizer/theme-option.php:88
+msgid "Hide Blog Archive Meta Info ?"
+msgstr ""
+
+#: inc/customizer/theme-option.php:71 inc/customizer/theme-option.php:214
+#: inc/customizer/theme-option.php:233 inc/customizer/theme-option.php:251
+msgid "Leave empty to hide"
+msgstr "Lämna tom för att dölja"
+
+#: inc/customizer/theme-option.php:70
+msgid "Read more text"
+msgstr "”Läs mer”-text"
+
+#: inc/customizer/theme-option.php:53
+msgid "Content"
+msgstr "Innehåll"
+
+#: inc/customizer/theme-option.php:52
+msgid "Excerpt"
+msgstr "Utdrag"
+
+#: inc/customizer/theme-option.php:49
+msgid "Choose Archive, Blog Page Content type as default"
+msgstr ""
+
+#: inc/customizer/theme-option.php:48
+msgid "Archive Content Type"
+msgstr ""
+
+#: inc/customizer/theme-option.php:31
+msgid "Blog Management"
+msgstr "Blogghantering"
+
+#: inc/customizer/theme-option.php:17
+msgid "Theme Options"
+msgstr "Temaalternativ"
+
+#: inc/customizer/customizer.php:46
+msgid "Get PRO !"
+msgstr "Skaffa PRO!"
+
+#: inc/customizer/customizer.php:45
+msgid "Startup Pro Version!"
+msgstr ""
+
+#: inc/customizer/core/default.php:32
+msgid "Continue Reading"
+msgstr "Fortsätt läsa"
+
+#: inc/customizer/core/default.php:31
+msgid "Copyright All right reserved"
+msgstr "Upphovsrätt. Alla rättigheter förbehållna"
+
+#: inc/class/class-template-tags.php:171
+msgid "Tags"
+msgstr "Etiketter"
+
+#. translators: %s: number of comments
+#: inc/class/class-template-tags.php:154
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s kommentar"
+msgstr[1] "%s kommentarer"
+
+#: inc/class/class-post-related.php:141
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: inc/class/class-post-related.php:140
+msgid "Next"
+msgstr "Nästa"
+
+#: inc/class/class-post-related.php:139
+msgid "Previous"
+msgstr "Föregående"
+
+#. translators:straing
+#: inc/class/class-header.php:345
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: inc/class/class-header.php:49
+msgid "Skip to content"
+msgstr "Hoppa till innehåll"
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:126
+msgctxt "credit to cms"
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:126
+msgid "https://wordpress.org"
+msgstr "https://sv.wordpress.org"
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:126
+msgctxt "credit - theme"
+msgid "emart-shop"
+msgstr "emart-shop"
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:126
+msgid "Theme : %1$s By aThemeArt"
+msgstr "Tema: %1$s av aThemeArt"
+
+#. translators: 1: Current Year, 2: Blog Name
+#: inc/class/class-footer.php:118
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: 1: Current Year, 2: Blog Name
+#: inc/class/class-footer.php:118
+msgid "Copyright &copy; %1$s %2$s. All Right Reserved."
+msgstr "Upphovsrätt &copy; %1$s %2$s. Alla rättigheter förbehållna."
+
+#: inc/admin/admin-page.php:446
+msgid "More Information"
+msgstr "Mer information"
+
+#: inc/admin/admin-page.php:437
+msgid "You can control overall everything without code"
+msgstr ""
+
+#: inc/admin/admin-page.php:432
+msgid "WooCommerce Layout Options"
+msgstr "Layoutalternativ för WooCommerce"
+
+#: inc/admin/admin-page.php:427
+msgid "WooCommerce Child Theme"
+msgstr "WooCommerce barntema"
+
+#: inc/admin/admin-page.php:422
+msgid "WooCommerce Customizable Options"
+msgstr "Anpassningsbara alternativ för WooCommerce"
+
+#: inc/admin/admin-page.php:417
+msgid "WooCommerce Custom Plugins"
+msgstr ""
+
+#: inc/admin/admin-page.php:414
+msgid "Fully customizable feature"
+msgstr "Helt anpassningsbar funktion"
+
+#: inc/admin/admin-page.php:413
+msgid "Basic feature"
+msgstr ""
+
+#: inc/admin/admin-page.php:412
+msgid "WooCommerce "
+msgstr "WooCommerce "
+
+#: inc/admin/admin-page.php:407
+msgid "Footer Carditis"
+msgstr ""
+
+#: inc/admin/admin-page.php:402
+msgid "Sidebar Disable / Enable"
+msgstr "Inaktivera/aktivera sidopanel"
+
+#: inc/admin/admin-page.php:398
+msgid "Three Style"
+msgstr "Tre stilar"
+
+#: inc/admin/admin-page.php:397
+msgid "One Style"
+msgstr "En stil"
+
+#: inc/admin/admin-page.php:396
+msgid "Sidebar Style"
+msgstr "Sidopanelens stil"
+
+#: inc/admin/admin-page.php:391
+msgid "Social Share"
+msgstr "Social delning"
+
+#: inc/admin/admin-page.php:386
+msgid "Related Posts "
+msgstr "Relaterade inlägg "
+
+#: inc/admin/admin-page.php:383
+msgid "Standard,Grids, Standard left, Standard right layout"
+msgstr "Standard, rutnät, standard vänster, standard höger layout"
+
+#: inc/admin/admin-page.php:382
+msgid "Standard layout"
+msgstr "Standardlayout"
+
+#: inc/admin/admin-page.php:381
+msgid "Blog Posts Layout"
+msgstr "Layout på blogginlägg"
+
+#: inc/admin/admin-page.php:375
+msgid "Custom Blog Template"
+msgstr "Anpassad bloggmall"
+
+#: inc/admin/admin-page.php:369
+msgid "Custom Page Template"
+msgstr "Anpassad sidmall"
+
+#: inc/admin/admin-page.php:363
+msgid "Unlimited Fonts"
+msgstr "Obegränsade typsnitt"
+
+#: inc/admin/admin-page.php:358
+msgid "Unlimited colors"
+msgstr "Obegränsade färger"
+
+#: inc/admin/admin-page.php:352
+msgid "Latest Posts Wigets"
+msgstr ""
+
+#: inc/admin/admin-page.php:347
+msgid "Pricing Sections"
+msgstr "Sektioner för pris"
+
+#: inc/admin/admin-page.php:341
+msgid "Testimonials Sections"
+msgstr "Sektioner för omdömen"
+
+#: inc/admin/admin-page.php:335
+msgid "Portfolio & Project Sections"
+msgstr "Sektioner för portföljer och projekt"
+
+#: inc/admin/admin-page.php:330
+msgid "Team Sections"
+msgstr "Sektioner för team"
+
+#: inc/admin/admin-page.php:325
+msgid "Features Sections"
+msgstr ""
+
+#: inc/admin/admin-page.php:320
+msgid "Services Sections"
+msgstr "Sektioner för tjänster"
+
+#: inc/admin/admin-page.php:317
+msgid "Theme Own Slider or 3rd party plugins"
+msgstr ""
+
+#: inc/admin/admin-page.php:316
+msgid "3rd party plugins"
+msgstr "Tredjepartstillägg"
+
+#: inc/admin/admin-page.php:315
+msgid "Slider Plugins"
+msgstr ""
+
+#: inc/admin/admin-page.php:312
+msgid "Theme Own Addons"
+msgstr "Temats egna utökningar"
+
+#: inc/admin/admin-page.php:311
+msgid "Only Elementor plugins"
+msgstr "Endast Elementor-tillägg"
+
+#: inc/admin/admin-page.php:310
+msgid "Elementor Page Builder toolkit & Addons"
+msgstr ""
+
+#: inc/admin/admin-page.php:307
+msgid "Full features Customizer"
+msgstr ""
+
+#: inc/admin/admin-page.php:306
+msgid "lite features Customizer"
+msgstr ""
+
+#: inc/admin/admin-page.php:302
+msgid "Own Ticket, email , Skype &amp; Teamviewer ( 24 / 7 )"
+msgstr ""
+
+#: inc/admin/admin-page.php:301
+msgid "WP forum ( 48 / 5 )"
+msgstr "WP-forum (48/5)"
+
+#: inc/admin/admin-page.php:300
+msgid "24/7 Priority Support"
+msgstr "Prioriterat support dygnet runt"
+
+#: inc/admin/admin-page.php:295
+msgid "emart-shop PRO"
+msgstr "emart-shop PRO"
+
+#: inc/admin/admin-page.php:294
+msgid "emart-shop"
+msgstr "emart-shop"
+
+#: inc/admin/admin-page.php:293
+msgid "Features"
+msgstr "Funktioner"
+
+#: inc/admin/admin-page.php:235
+msgid "View changelog below:"
+msgstr "Visa ändringslogg nedan:"
+
+#: inc/admin/admin-page.php:218
+msgid "Go to Dashboard"
+msgstr "Gå till adminpanel"
+
+#: inc/admin/admin-page.php:218
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Gå till adminpanel &rarr; hem"
+
+#: inc/admin/admin-page.php:215
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Tillbaka till adminpanel &rarr; uppdateringar"
+
+#: inc/admin/admin-page.php:215
+msgid "Return to Updates"
+msgstr "Tillbaka till uppdateringar"
+
+#: inc/admin/admin-page.php:205
+msgid "Info about PRO version"
+msgstr "Info om PRO-versionen"
+
+#: inc/admin/admin-page.php:204 inc/admin/admin-page.php:287
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Uppgradera till PRO-version för fler spännande funktioner."
+
+#: inc/admin/admin-page.php:203
+msgid "Need more features?"
+msgstr "Behöver du fler funktioner?"
+
+#: inc/admin/admin-page.php:199
+msgid "Support"
+msgstr "Support"
+
+#: inc/admin/admin-page.php:198
+msgid "Please put it in our support forum."
+msgstr "Ställ det i vårt supportforum."
+
+#: inc/admin/admin-page.php:197
+msgid "Got theme support question?"
+msgstr "Har du en supportfråga för temat?"
+
+#. translators: %s: plugin name.
+#: inc/admin/admin-page.php:193
+msgid "Customize"
+msgstr "Anpassa"
+
+#: inc/admin/admin-page.php:192
+msgid "All Theme Options are available via Customize screen."
+msgstr "Alla temanalternativ är tillgängliga via anpassningsskärmen."
+
+#: inc/admin/admin-page.php:191 inc/admin/admin-page.php:305
+msgid "Theme Customizer"
+msgstr "Tema-anpassare"
+
+#: inc/admin/admin-page.php:151
+msgid "Changelog"
+msgstr "Ändringslogg"
+
+#: inc/admin/admin-page.php:148
+msgid "Free Vs PRO"
+msgstr "Jämför gratis och PRO"
+
+#: inc/admin/admin-page.php:135
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/admin/admin-page.php:133
+msgid "Rate this theme"
+msgstr "Betygsätt detta tema"
+
+#: inc/admin/admin-page.php:131
+msgid "View Demo"
+msgstr "Visa demo"
+
+#: inc/admin/admin-page.php:129
+msgid "Theme Info"
+msgstr "Information om tema"
+
+#: inc/admin/admin-page.php:122
+msgid "About"
+msgstr "Om"
+
+#: inc/admin/admin-page.php:106
+msgid "Get started with eMart Shop"
+msgstr "Kom igång med eMart Shop"
+
+#. translators: %s: plugin name.
+#: inc/admin/admin-page.php:104
+msgid "Welcome! Thank you for choosing eMart Shop! To fully take advantage of the best our theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/admin/admin-page.php:103
+msgid "Dismiss"
+msgstr "Avfärda"
+
+#. translators: %s: plugin name.
+#: inc/admin/admin-page.php:85
+msgid "Cheatin&#8217; huh?"
+msgstr "Fuskar du, va?"
+
+#. translators: %s: plugin name.
+#: inc/admin/admin-page.php:80
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Åtgärd misslyckades. Uppdatera sidan och försök igen."
+
+#: inc/admin/admin-page.php:36 inc/admin/admin-page.php:37
+msgid "Getting Started eMart Shop"
+msgstr "Kom igång med eMart Shop"
+
+#: comments.php:113
+msgid "Your email address will not be published. Required fields are marked *."
+msgstr "Din e-postadress kommer inte att publiceras. Obligatoriska fält är markerat *."
+
+#: comments.php:109
+msgid "Post Comment"
+msgstr "Publicera kommentar"
+
+#: comments.php:104
+msgid "Comment"
+msgstr "Kommentar"
+
+#: comments.php:99
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr "Spara mitt namn, e-post och webbplats i denna webbläsare till nästa gång jag kommenterar."
+
+#: comments.php:96
+msgid "Website"
+msgstr "Webbplats"
+
+#: comments.php:90
+msgid "Your Email"
+msgstr "Din e-post"
+
+#: comments.php:85
+msgid "Your Name"
+msgstr "Ditt namn"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Kommentarer är stängda."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:42
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s svar på ”%2$s”"
+msgstr[1] "%1$s svar på ”%2$s”"
+
+#. translators: 1: title.
+#: comments.php:36
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Ett svar på ”%1$s”"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Det verkar som om inget hittades på denna plats. Kanske prova någon av länkarna nedan eller en sökning?"
+
+#: 404.php:15 inc/class/class-header.php:349
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppsan! Den sidan kan inte hittas."
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://athemeart.com/"
+msgstr "https://athemeart.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "aThemeArt"
+msgstr "aThemeArt"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://athemeart.com/downloads/emart/"
+msgstr "https://athemeart.com/downloads/emart/"
