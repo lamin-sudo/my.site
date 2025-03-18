@@ -1,40 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>حسابي</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" type="module"></script>
-</head>
-<body>
-    <!-- زر القائمة -->
-    <button id="menu-toggle">☰ القائمة</button>
-
-    <!-- القائمة الجانبية -->
-    <div id="sidebar" class="sidebar">
-        <ul>
-            <li><a href="index.html">🏠 الرئيسية</a></li>
-            <li><a href="account.html">👤 حسابي</a></li>
-            <li><a href="products.html">🛒 المتجر</a></li>
-            <li><button id="logout-btn">🚪 تسجيل الخروج</button></li>
-        </ul>
-    </div>
-
-    <!-- محتوى الصفحة -->
-    <div class="container">
-        <h2>تسجيل الدخول</h2>
-        <form id="loginForm">
-            <input type="email" id="loginEmail" placeholder="البريد الإلكتروني" required>
-            <input type="password" id="loginPassword" placeholder="كلمة المرور" required>
-            <button type="submit">تسجيل الدخول</button>
-        </form>
-        <h2>إنشاء حساب جديد</h2>
-        <form id="registerForm">
-            <input type="email" id="registerEmail" placeholder="البريد الإلكتروني" required>
-            <input type="password" id="registerPassword" placeholder="كلمة المرور" required>
-            <button type="submit">إنشاء الحساب</button>
-        </form>
-    </div>
-</body>
-</html>

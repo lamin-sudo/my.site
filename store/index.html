@@ -1,73 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>متجري</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <!-- رأس الصفحة -->
-    <header>
-        <button class="menu-btn" id="menu-toggle" onclick="toggleMenu()">☰</button>
-        <img src="https://new.letshop.dz/wp-content/uploads/2023/05/Blue-And-Yellow-Typography-Company-Logo-1-2.png" class="logo" alt="Logo">
-        <button class="search-btn">🔍</button>
-    </header>
-
-    <!-- القائمة الجانبية -->
-    <div class="sidebar" id="sidebar">
-        <button class="close-btn" onclick="toggleMenu()">×</button>
-        <div class="logo-container">
-            <img src="logo.png" alt="Logo">
-            <span>1Shop DZ</span>
-        </div>
-        <ul>
-            <li><a href="index.html">🏠 الرئيسية</a></li>
-            <li><a href="products.html">🛒 المنتجات</a></li>
-            <li><a href="shipping.html">📦 الشحن</a></li>
-            <li><a href="about.html">ℹ️ تعرف علينا</a></li>
-            <li><a href="contact.html">📞 الاتصال</a></li>
-        </ul>
-    </div>
-
-    <!-- سلايدر الإعلانات -->
-    <section class="slider">
-        <img src="banner1.jpg" alt="تخفيضات أجهزة المطبخ">
-    </section>
-
-    <!-- أقسام المتجر -->
-    <section class="categories">
-        <div class="category">🔥 عروض وتخفيضات</div>
-        <div class="category">🎁 Pack زوج بسومة وحدة</div>
-        <div class="category">🚚 توصيل مجاني</div>
-    </section>
-
-    <!-- عروض اليوم -->
-    <section class="deals">
-        <h2>⚡ عروض اليوم</h2>
-        <div class="product-grid">
-            <div class="product">
-                <img src="product1.jpg" alt="حامل هاتف">
-                <p>حامل هاتف للسيارة</p>
-                <span class="discount">-20%</span>
-            </div>
-            <div class="product">
-                <img src="product2.jpg" alt="مروحة تبريد">
-                <p>مروحة تبريد للهاتف</p>
-                <span class="discount">-31%</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- شريط التنقل السفلي -->
-    <nav class="bottom-nav">
-        <a href="store.html">🏠 محل</a>
-        <a href="categories.html">📂 فئات</a>
-        <a href="cart.html">🛒 سلة</a>
-        <a href="account.html">👤 حسابي</a>
-    </nav>
-
-    <script src="script.js"></script>
-</body>
-</html>
