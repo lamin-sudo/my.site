@@ -2,7 +2,7 @@
 
 /* Profile Section */
 .profile {
-    background: url('profile-bg.jpg') no-repeat center center;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZY7X5qUDC7wfgHx2EWBqut2-Zn3PNRs_FAxX-FWAbEVp8YfdGRXkkgtyVItWeOVwzDcQ6I8AcsVo1TBOCm2dYu2IFOLwUpSb1RVYiY9wN2diKODXwcGJNPvWCg36XygbSD9a-obCvUQqIhmH9-kO08_wJoFfNSvY3OU5X7_qz1VMElUgrG_4PCwhNnf9W/w720/1000022707.png') no-repeat center center;
     background-size: cover;
     color: #fff; /* Ensures text is readable on the background */
     padding: 40px;
