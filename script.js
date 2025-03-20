@@ -46,22 +46,32 @@ document.addEventListener("DOMContentLoaded", () => {
         once: true, // Whether animation should happen only once
     });
 
-    // Portfolio Projects
-    const projects = [
-        { name: "Project 1", link: "https://github.com/your-username/project1", image: "https://via.placeholder.com/150" },
-        { name: "Project 2", link: "https://github.com/your-username/project2", image: "https://via.placeholder.com/150" },
-        { name: "Project 3", link: "https://github.com/your-username/project3", image: "https://via.placeholder.com/150" },
-    ];
-
+    // Portfolio Projects (Dynamic Fetch)
     const projectsContainer = document.querySelector(".projects");
-    projects.forEach(project => {
-        const projectDiv = document.createElement("div");
-        projectDiv.innerHTML = `
-            <a href="${project.link}" target="_blank">
-                <img src="${project.image}" alt="${project.name}" style="width: 100%; border-radius: 8px;">
-                <p>${project.name}</p>
-            </a>
-        `;
-        projectsContainer.appendChild(projectDiv);
-    });
+    
+    fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`GitHub API error: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(repos => {
+            repos.forEach(repo => {
+                const projectDiv = document.createElement("div");
+                projectDiv.classList.add("project-card");
+                projectDiv.innerHTML = `
+                    <div class="card">
+                        <h3>${repo.name}</h3>
+                        <p>${repo.description || "No description available."}</p>
+                        <a href="${repo.html_url}" target="_blank">View on GitHub</a>
+                    </div>
+                `;
+                projectsContainer.appendChild(projectDiv);
+            });
+        })
+        .catch(error => {
+            console.error("Error fetching GitHub repositories:", error);
+            projectsContainer.innerHTML = "<p>Unable to load projects.</p>";
+        });
 });
